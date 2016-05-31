@@ -3,8 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Forum</title>
+    <link rel="stylesheet" href="resources/css/normalize.css" />
+    <link rel="stylesheet" href="resources/css/ionicons.min.css" />
   </head>
   <body>
-    <h1>Forum</h1>
+
+    <header>
+      <h1>Simple Forum</h1>
+    </header>
+
+    <section class="main-content">
+      <ol class="forum-posts">
+        <li>
+          <h3 class="post-title">My First Post</h3>
+          <p class="post-text">It is a long established fact that a reader will be distracted by the readable content of page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution of letters.</p>
+          <i class="icon ion-thumbsup"></i>
+          <i class="icon ion-android-person"></i>
+        </li>
+      </ol>
+    </section>
+
+    <section class="forum-form">
+      <h2>Make a Post</h2>
+      <form>
+        <label class="title-label" for="title-input">Title:</label>
+        <input type="text" id="title-input"/>
+        <label class="textarea-label" for="textarea-input">Post:</label>
+        <textarea id="textarea-input"></textarea>
+        <input type="submit"/>
+      </form>
+    </section>
+
   </body>
 </html>
