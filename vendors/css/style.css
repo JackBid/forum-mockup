@@ -1,0 +1,45 @@
+/**********************************
+    red color: #e74c3c
+    green color: #27ae60
+***********************************/
+
+/**********************************
+    BODY / DEFAULTS
+*********************************/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+
+/**********************************
+    HEADER
+**********************************/
+
+header {
+  background-color: #e74c3c;
+  height: 250px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 320%;
+  padding-top: 70px;
+}
+
+/**********************************
+    MAIN CONTENT / POSTS
+**********************************/
+
+.main-content {
+  width: 65%;
+  margin: auto;
+}
