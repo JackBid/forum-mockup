@@ -43,3 +43,33 @@ header h1 {
   width: 65%;
   margin: auto;
 }
+
+ol {
+  list-style-type: none;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.post-container {
+  width: 95%;
+  margin: auto;
+  position: relative;
+}
+
+.forum-posts li {
+  margin-top: 25px;
+  border-bottom: 2px solid #ddd;
+}
+
+.post-container .ion-thumbsup {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.post-container .ion-android-person {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
