@@ -17,6 +17,9 @@ $(document).ready(function(){
                         "<i class='icon ion-android-person'></i>" +
                       "</div>" +
                   "</div></li>";
-    $ol.append(liToAdd);
+    $ol.prepend(liToAdd);
+    if($ol[0].children.length >= 8) {
+      $ol.find("li").last().remove();
+    }
   });
 });
